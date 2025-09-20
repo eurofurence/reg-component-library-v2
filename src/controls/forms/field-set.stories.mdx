@@ -1,0 +1,35 @@
+import { Canvas, Controls, Meta, Story } from "@storybook/addon-docs/blocks"
+
+import Form from "../../layout/form"
+import Checkbox from "./checkbox"
+import FieldSet from "./field-set"
+
+<Meta title="Controls/Forms/FieldSet" component={FieldSet} argTypes={{ onChange: {} }} />
+
+# FieldSet
+
+The `FieldSet` component can be used to group a set of radio buttons and/or checkboxes together.
+
+This component adheres to the `Form` grid.
+
+## Baseline
+
+<Canvas>
+  <Story name="Baseline" args={{
+    legend: 'Pizza toppings',
+    gridSpan: 10,
+  }}>
+    {args => <Form>
+      <FieldSet {...args}>
+        <Checkbox label="Tomato sauce" />
+        <Checkbox label="Mozzarella cheese" />
+        <Checkbox label="Paprika" />
+        <Checkbox label="Pepperoni" />
+        <Checkbox label="Anchovies" />
+        <Checkbox label="Olives" />
+      </FieldSet>
+    </Form>}
+  </Story>
+</Canvas>
+
+<Controls of="Baseline" />

@@ -1,0 +1,28 @@
+import { Canvas, Controls, Meta, Story } from "@storybook/addon-docs/blocks"
+
+import Form from "../../layout/form"
+import TextField from "./text-field"
+
+<Meta title="Controls/Forms/TextField" component={TextField} argTypes={{ onChange: {} }} />
+
+# TextField
+
+The `TextField` component allows textual user input in a form.
+
+It adheres to the form grid.
+
+## Baseline
+
+<Canvas>
+  <Story name="Baseline" args={{
+    label: 'First name',
+    placeholder: 'John',
+    gridSpan: 10,
+  }}>
+    {args => <Form>
+      <TextField {...args}/>
+    </Form>}
+  </Story>
+</Canvas>
+
+<Controls of="Baseline" />

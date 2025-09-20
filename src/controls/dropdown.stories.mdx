@@ -1,0 +1,22 @@
+import { Canvas, Controls, Meta, Story } from "@storybook/addon-docs/blocks"
+
+import NavBar from "../layout/nav-bar"
+import Dropdown from "./dropdown"
+
+<Meta title="Controls/Dropdown" component={Dropdown} argTypes={{ onClick: {} }} />
+
+# Dropdown
+
+A dropdown button to be used in the `NavBar` component.
+
+## Baseline
+
+<Canvas>
+  <Story name="Baseline" args={{
+    content: 'Click me!',
+  }}>
+    {args => <NavBar><Dropdown>Click me!</Dropdown></NavBar>}
+  </Story>
+</Canvas>
+
+<Controls of="Baseline" />

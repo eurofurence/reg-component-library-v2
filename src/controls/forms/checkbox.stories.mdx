@@ -1,0 +1,62 @@
+import { Canvas, Controls, Meta, Story } from "@storybook/addon-docs/blocks"
+
+import Form from "../../layout/form"
+import Checkbox from "./checkbox"
+import TextField from "./text-field"
+
+<Meta title="Controls/Forms/Checkbox" component={Checkbox} argTypes={{ onChange: {} }} />
+
+# Checkbox
+
+The `Checkbox` component represents a checkbox in a form.
+
+When labeled, this component adheres to the form grid.
+
+## Baseline
+
+<Canvas>
+  <Story name="Baseline" args={{
+    label: 'I am a furry.',
+    checked: true,
+  }}>
+    {args => <Form>
+      <Checkbox {...args}/>
+    </Form>}
+  </Story>
+</Canvas>
+
+<Controls of="Baseline" />
+
+## Complex content
+
+The labeled version of the checkbox can be loaded with complex content. It will be shown below the label.
+
+<Canvas>
+  <Story name="Complex content" args={{
+    label: 'Other:',
+    checked: true,
+  }}>
+    {args => <Form>
+      <Checkbox {...args}>
+        <TextField label="First name"/>
+        <TextField label="Last name"/>
+      </Checkbox>
+    </Form>}
+  </Story>
+</Canvas>
+
+<Controls of="Complex content" />
+
+## Labelless
+
+It is possible to create a checkbox without a label. This changes the structure in the DOM. The `input` will not be nested in a `label` node.
+
+<Canvas>
+  <Story name="Labelless" args={{
+    showLabel: true,
+  }}>
+    {({ showLabel }) => <Checkbox value="example" label={showLabel ? 'Now you see me' : undefined}/>}
+  </Story>
+</Canvas>
+
+<Controls of="Labelless" />

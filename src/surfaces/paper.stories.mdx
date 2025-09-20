@@ -1,0 +1,37 @@
+import { Canvas, Meta, Story } from "@storybook/addon-docs/blocks"
+
+import Paper from "../surfaces/paper"
+
+<Meta
+	title="Surfaces/Paper"
+	component={Paper}
+	parameters={{
+		backgrounds: {
+			default: 'blue gray',
+			values: [{
+				name: 'blue gray',
+				value: 'var(--color-blue-gray)',
+			}],
+		},
+	}}
+/>
+
+# Paper
+
+A `Paper` is a flat surface intended to contain large bodies of text or similar content, and represents a physical piece of paper.
+It automatically fills the available width.
+
+## Baseline
+
+<Canvas>
+	<Story name="Baseline">
+		<Paper>
+			<p>Aliquip dolor reprehenderit in id Lorem tempor exercitation. Commodo non labore incididunt minim consectetur id excepteur non laboris non pariatur quis. Ut fugiat anim velit cupidatat Lorem commodo. Nostrud magna adipisicing exercitation do quis sint. Sunt cupidatat officia aliqua sunt duis ad anim.</p>
+			<p>Deserunt culpa aliqua commodo voluptate cillum aliqua qui magna laboris excepteur veniam. Officia non irure ex laboris cupidatat eiusmod exercitation et et. Laboris sint do id ipsum sit ullamco veniam laboris consequat. Qui consectetur do reprehenderit reprehenderit anim laborum aute adipisicing exercitation id cupidatat Lorem quis. Cillum enim velit irure in elit incididunt veniam qui ea cupidatat occaecat incididunt nostrud. Amet tempor magna eiusmod consectetur tempor minim sit in commodo incididunt nostrud qui culpa.</p>
+			<p>Culpa elit consectetur esse sint minim est eiusmod quis aute voluptate do. Dolore reprehenderit mollit dolore magna pariatur eu nulla deserunt elit nulla veniam ut do pariatur. Proident sunt magna nostrud sunt est labore reprehenderit velit aliquip consectetur sint et ex. Dolor nostrud ea laborum consequat velit. Irure Lorem qui ad elit Lorem duis reprehenderit ea excepteur ipsum in.</p>
+			<p>Excepteur ex do veniam velit fugiat. Ullamco sit magna eu est laboris cupidatat. Aliqua duis cillum mollit do veniam tempor proident.</p>
+			<p>Cillum ipsum do fugiat ipsum nostrud dolore est sit ex commodo magna pariatur dolor sit. Cupidatat enim aliqua eiusmod ut irure mollit sunt anim exercitation. Lorem deserunt et culpa ut consectetur quis culpa. Laboris officia reprehenderit non ad consequat ipsum in cillum elit nisi proident voluptate ut magna. Est labore Lorem consectetur nostrud ad officia ad non Lorem adipisicing incididunt dolor do dolore.</p>
+			<p>Qui excepteur eu culpa commodo proident aliquip ex id ea exercitation commodo deserunt. Ex ea cupidatat enim nulla ullamco consequat incididunt aute aute eu proident aute veniam do. Et nulla amet est fugiat veniam quis elit adipisicing eiusmod fugiat labore. Do irure reprehenderit do ad culpa magna. Voluptate aute quis magna commodo nostrud tempor ut sint ut labore et cillum in. Proident amet commodo quis deserunt irure irure amet labore proident.</p>
+		</Paper>
+	</Story>
+</Canvas>

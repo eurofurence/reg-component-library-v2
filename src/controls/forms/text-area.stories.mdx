@@ -1,0 +1,38 @@
+import { Canvas, Controls, Meta, Story } from "@storybook/addon-docs/blocks"
+
+import Form from "../../layout/form"
+import TextArea from "./text-area"
+
+<Meta title="Controls/Forms/TextArea" component={TextArea} argTypes={{ onChange: {} }} />
+
+# TextArea
+
+The `TextArea` component allows large textual user input in a form.
+
+It adheres to the form grid.
+
+## Baseline
+
+<Canvas>
+  <Story name="Baseline" args={{
+    label: 'Write an exhilarating story:',
+    placeholder: `John Stalvern waited. The lights above him blinked and sparked out of the air. There were furries in the hotel. He didn't see them, but had expected them now for years. His warnings to Cernel Joson were not listenend to and now it was too late. Far too late for now, anyway.
+John was a Spree marine for fourteen years. When he was young he watched the Summerboat and he said to dad "I want to be on the boat daddy."
+Dad said "No! You will BE CONVERTED BY FURRIES"
+There was a time when he believed him. Then as he got oldered he stopped. But now in the Estrel hotel of Berlin he knew there were furries.
+"This is Joson" the radio crackered. "You must fight the furries!"
+So John gotted his fursuit disintegrator rifle and blew up the wall.
+"HE GOING TO DESTROY OUR FURSUITS" said the furries
+"I will convert him" said the fursuiter and he fired the pathOwOgen. John disintegratored at him and tried to blew up his fursuit. But then the ceiling fell and they were trapped and not able to destroy.
+"No! I must fight the furries" he shouted
+The radio said "No, John. You are the furries"
+And then John was his fursona.`,
+    gridSpan: 10,
+  }}>
+    {args => <Form>
+      <TextArea {...args}/>
+    </Form>}
+  </Story>
+</Canvas>
+
+<Controls of="Baseline" />

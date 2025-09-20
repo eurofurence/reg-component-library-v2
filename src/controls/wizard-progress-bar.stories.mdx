@@ -1,0 +1,24 @@
+import { Canvas, Controls, Meta, Story } from "@storybook/addon-docs/blocks"
+
+import WizardProgressBar from "./wizard-progress-bar"
+
+<Meta title="Controls/WizardProgressBar" component={WizardProgressBar} />
+
+# WizardProgressBar
+
+The `WizardProgressBar` component shows the progress a user has achieved through a wizard.
+
+## Baseline
+
+<Canvas>
+  <Story name="Baseline" args={{
+    steps: ['Start', 'Getting started', 'Halfway through', 'Almost there', 'The end'],
+    currentStep: 3,
+  }}>
+    {({ steps, currentStep }) => 
+      <WizardProgressBar steps={steps} currentStep={Math.max(0, Math.min(steps.length - 1, currentStep))} />
+    }
+  </Story>
+</Canvas>
+
+<Controls of="Baseline" />

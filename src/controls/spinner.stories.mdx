@@ -1,0 +1,19 @@
+import { Canvas, Controls, Meta, Story } from "@storybook/addon-docs/blocks"
+
+import Spinner from "./spinner"
+
+<Meta title="Controls/Spinner" component={Spinner} />
+
+# Spinner
+
+A spinner.
+
+## Baseline
+
+<Canvas>
+  <Story name="Baseline">
+    {args => <Spinner />}
+  </Story>
+</Canvas>
+
+<Controls of="Baseline" />

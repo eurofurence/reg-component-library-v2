@@ -1,0 +1,77 @@
+import { Canvas, Controls, Meta, Story } from "@storybook/addon-docs/blocks"
+
+import Form from "../../layout/form"
+import Select from "./select"
+
+<Meta title="Controls/Forms/Select" component={Select} argTypes={{ onChange: {} }} />
+
+# Select
+
+The `Select` component allows textual user input in a form.
+
+## Baseline
+
+<Canvas>
+  <Story name="Baseline">
+    <Form>
+      <Select name="ticket-type" options={[
+        { value: 'standard', label: 'Standard' },
+        { value: 'sponsor', label: 'Sponsor' },
+        { value: 'super-sponsor', label: 'Super sponsor' }
+      ]}/>
+    </Form>
+  </Story>
+</Canvas>
+
+<Controls of="Baseline" />
+
+## Multi
+
+<Canvas>
+  <Story name="Multi">
+    <Form>
+      <Select name="events" isMulti options={[
+        { value: '0', label: "Opening Ceremony" },
+        { value: '1', label: "Convention Group Photo" },
+        { value: '2', label: "Fast Furry Friends – Fastest way to meet new friends" },
+        { value: '3', label: "Fursuiters Against Shyness" },
+        { value: '4', label: "Hella Lots to Talk About!" },
+        { value: '5', label: "It's All About that Base! – How to sketch poses that work for all body types and build a solid base for your artwork." },
+        { value: '6', label: "Pen and Paper/Tabletop RPGs – Let's do Roleplay!" },
+        { value: '7', label: "Pokémon Panel – TCG & Nintendo" },
+        { value: '8', label: "Whose Lion is it Anyways?" },
+        { value: '9', label: "Anomaly Anthem" },
+        { value: '10', label: "Live Model Drawing 101" },
+        { value: '11', label: "Meetup German-Speaking Furry Clubs" },
+        { value: '12', label: "Open Mic. – (A chance to try out your talents on stage!)" },
+        { value: '13', label: "Pokémon Go Meet-Up – Gotta catch em all!" },
+        { value: '14', label: "Therianthropy 101" },
+        { value: '15', label: "Deep Learning for Artists" },
+        { value: '16', label: "Your First Furry Convention" },
+        { value: '17', label: "Enlightenment on Health Topics with the Berliner Aids-Hilfe e.V." },
+        { value: '18', label: "Furries or Kemonos? – Thinking fandom's globality through the Japanese case" },
+        { value: '19', label: "Light and Lighting for Visual Artists" },
+        { value: '20', label: "Trans Meet-Up – For all trans and non-binary furries!" },
+        { value: '21', label: "Onkel Kage's Story Hour" },
+        { value: '22', label: "DON'T MAKE COMICS! AND MAKE COMICS!" },
+        { value: '23', label: "Drawing Interiors, Backgrounds and Scenery" },
+        { value: '24', label: "Kage & Tien's Charity Show!" },
+        { value: '25', label: "Project ARFFA Redux – The Pathway to Animated Furry Movies - continued" },
+        { value: '26', label: "Tabikitsune Densetsu 1 – Of mythical foxes and Shinto faith in Japan" },
+        { value: '27', label: "Fursuit Group Photo" },
+        { value: '28', label: "Meet Our Charity - The Lutreola Foundation" },
+        { value: '29', label: "Electronic Music Production Crash Course and Meet-Up" },
+        { value: '30', label: "Funny Animals and Amerimanga in Sonic the Hedgehog Archie Series" },
+        { value: '31', label: "Furries in Archaeology – The time capsule under our paws" },
+        { value: '32', label: "MaxwolfEvents and Public Fursuiting – Public Fursuiting in Western Canada" },
+        { value: '33', label: "Powerpoint Karaoke – Improv game! Presenters in fursuits welcome!" },
+        { value: '34', label: "The Scary Blank Canvas!" },
+        { value: '35', label: "Pen and Paper/Tabletop RPGs – Let's do Roleplay!" },
+        { value: '36', label: "Enter The Arena" },
+        { value: '37', label: "Digital Inking Tips & Tricks – How to ink digitally in Photoshop" },
+      ]}/>
+    </Form>
+  </Story>
+</Canvas>
+
+<Controls of="Multi" />

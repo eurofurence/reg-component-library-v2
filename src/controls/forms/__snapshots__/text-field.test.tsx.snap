@@ -1,0 +1,1167 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextField renders correctly 1`] = `
+@media not all and (max-width: 449.99px) {
+  form>.emotion-0 {
+    grid-column: span 10;
+  }
+}
+
+.emotion-1 {
+  display: block;
+  font-weight: 700;
+  color: var(--color-grays-500);
+  margin-bottom: 0.5em;
+}
+
+.emotion-2 {
+  width: 100%;
+  height: 3em;
+  border: 2px solid var(--color-grays-300);
+  border-radius: 0.1875em;
+  padding: 0.75em 1em;
+  color: var(--color-grays-900);
+}
+
+.emotion-2::-webkit-input-placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2::-moz-placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2:-ms-input-placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2::placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2:invalid {
+  border-color: var(--color-semantic-error);
+}
+
+<label
+  class="emotion-0"
+>
+  <div
+    class="emotion-1"
+  />
+  <input
+    class="emotion-2"
+    name="username"
+    placeholder="\\\\>"
+  />
+</label>
+`;
+
+exports[`TextField renders correctly 2`] = `
+@media not all and (max-width: 449.99px) {
+  form>.emotion-0 {
+    grid-column: span 10;
+  }
+}
+
+.emotion-1 {
+  display: block;
+  font-weight: 700;
+  color: var(--color-grays-500);
+  margin-bottom: 0.5em;
+}
+
+.emotion-2 {
+  width: 100%;
+  height: 3em;
+  border: 2px solid var(--color-grays-300);
+  border-radius: 0.1875em;
+  padding: 0.75em 1em;
+  color: var(--color-grays-900);
+}
+
+.emotion-2::-webkit-input-placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2::-moz-placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2:-ms-input-placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2::placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2:invalid {
+  border-color: var(--color-semantic-error);
+}
+
+<label
+  class="emotion-0"
+>
+  <div
+    class="emotion-1"
+  >
+    !3%^
+  </div>
+  <input
+    class="emotion-2"
+    name="username"
+    placeholder="Pr"
+  />
+</label>
+`;
+
+exports[`TextField renders correctly 3`] = `
+@media not all and (max-width: 449.99px) {
+  form>.emotion-0 {
+    grid-column: span 10;
+  }
+}
+
+.emotion-1 {
+  display: block;
+  font-weight: 700;
+  color: var(--color-grays-500);
+  margin-bottom: 0.5em;
+}
+
+.emotion-2 {
+  width: 100%;
+  height: 3em;
+  border: 2px solid var(--color-grays-300);
+  border-radius: 0.1875em;
+  padding: 0.75em 1em;
+  color: var(--color-grays-900);
+}
+
+.emotion-2::-webkit-input-placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2::-moz-placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2:-ms-input-placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2::placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2:invalid {
+  border-color: var(--color-semantic-error);
+}
+
+<label
+  class="emotion-0"
+>
+  <div
+    class="emotion-1"
+  />
+  <input
+    class="emotion-2"
+    name="username"
+    placeholder=""
+  />
+</label>
+`;
+
+exports[`TextField renders correctly 4`] = `
+@media not all and (max-width: 449.99px) {
+  form>.emotion-0 {
+    grid-column: span 10;
+  }
+}
+
+.emotion-1 {
+  display: block;
+  font-weight: 700;
+  color: var(--color-grays-500);
+  margin-bottom: 0.5em;
+}
+
+.emotion-2 {
+  width: 100%;
+  height: 3em;
+  border: 2px solid var(--color-grays-300);
+  border-radius: 0.1875em;
+  padding: 0.75em 1em;
+  color: var(--color-grays-900);
+}
+
+.emotion-2::-webkit-input-placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2::-moz-placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2:-ms-input-placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2::placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2:invalid {
+  border-color: var(--color-semantic-error);
+}
+
+<label
+  class="emotion-0"
+>
+  <div
+    class="emotion-1"
+  />
+  <input
+    class="emotion-2"
+    name="username"
+    placeholder="d"
+  />
+</label>
+`;
+
+exports[`TextField renders correctly 5`] = `
+@media not all and (max-width: 449.99px) {
+  form>.emotion-0 {
+    grid-column: span 10;
+  }
+}
+
+.emotion-1 {
+  display: block;
+  font-weight: 700;
+  color: var(--color-grays-500);
+  margin-bottom: 0.5em;
+}
+
+.emotion-2 {
+  width: 100%;
+  height: 3em;
+  border: 2px solid var(--color-grays-300);
+  border-radius: 0.1875em;
+  padding: 0.75em 1em;
+  color: var(--color-grays-900);
+}
+
+.emotion-2::-webkit-input-placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2::-moz-placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2:-ms-input-placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2::placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2:invalid {
+  border-color: var(--color-semantic-error);
+}
+
+<label
+  class="emotion-0"
+>
+  <div
+    class="emotion-1"
+  >
+    {
+  </div>
+  <input
+    class="emotion-2"
+    name="username"
+    placeholder="uei-"
+  />
+</label>
+`;
+
+exports[`TextField renders correctly 6`] = `
+@media not all and (max-width: 449.99px) {
+  form>.emotion-0 {
+    grid-column: span 10;
+  }
+}
+
+.emotion-1 {
+  display: block;
+  font-weight: 700;
+  color: var(--color-grays-500);
+  margin-bottom: 0.5em;
+}
+
+.emotion-2 {
+  width: 100%;
+  height: 3em;
+  border: 2px solid var(--color-grays-300);
+  border-radius: 0.1875em;
+  padding: 0.75em 1em;
+  color: var(--color-grays-900);
+}
+
+.emotion-2::-webkit-input-placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2::-moz-placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2:-ms-input-placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2::placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2:invalid {
+  border-color: var(--color-semantic-error);
+}
+
+<label
+  class="emotion-0"
+>
+  <div
+    class="emotion-1"
+  >
+    &gt;n#C
+  </div>
+  <input
+    class="emotion-2"
+    name="username"
+    placeholder="B"
+  />
+</label>
+`;
+
+exports[`TextField renders correctly 7`] = `
+@media not all and (max-width: 449.99px) {
+  form>.emotion-0 {
+    grid-column: span 10;
+  }
+}
+
+.emotion-1 {
+  display: block;
+  font-weight: 700;
+  color: var(--color-grays-500);
+  margin-bottom: 0.5em;
+}
+
+.emotion-2 {
+  width: 100%;
+  height: 3em;
+  border: 2px solid var(--color-grays-300);
+  border-radius: 0.1875em;
+  padding: 0.75em 1em;
+  color: var(--color-grays-900);
+}
+
+.emotion-2::-webkit-input-placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2::-moz-placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2:-ms-input-placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2::placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2:invalid {
+  border-color: var(--color-semantic-error);
+}
+
+<label
+  class="emotion-0"
+>
+  <div
+    class="emotion-1"
+  />
+  <input
+    class="emotion-2"
+    name="username"
+    placeholder="valueOf"
+  />
+</label>
+`;
+
+exports[`TextField renders correctly 8`] = `
+@media not all and (max-width: 449.99px) {
+  form>.emotion-0 {
+    grid-column: span 10;
+  }
+}
+
+.emotion-1 {
+  display: block;
+  font-weight: 700;
+  color: var(--color-grays-500);
+  margin-bottom: 0.5em;
+}
+
+.emotion-2 {
+  width: 100%;
+  height: 3em;
+  border: 2px solid var(--color-grays-300);
+  border-radius: 0.1875em;
+  padding: 0.75em 1em;
+  color: var(--color-grays-900);
+}
+
+.emotion-2::-webkit-input-placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2::-moz-placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2:-ms-input-placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2::placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2:invalid {
+  border-color: var(--color-semantic-error);
+}
+
+<label
+  class="emotion-0"
+>
+  <div
+    class="emotion-1"
+  />
+  <input
+    class="emotion-2"
+    name="username"
+    placeholder="l"
+  />
+</label>
+`;
+
+exports[`TextField renders correctly 9`] = `
+@media not all and (max-width: 449.99px) {
+  form>.emotion-0 {
+    grid-column: span 10;
+  }
+}
+
+.emotion-1 {
+  display: block;
+  font-weight: 700;
+  color: var(--color-grays-500);
+  margin-bottom: 0.5em;
+}
+
+.emotion-2 {
+  width: 100%;
+  height: 3em;
+  border: 2px solid var(--color-grays-300);
+  border-radius: 0.1875em;
+  padding: 0.75em 1em;
+  color: var(--color-grays-900);
+}
+
+.emotion-2::-webkit-input-placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2::-moz-placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2:-ms-input-placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2::placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2:invalid {
+  border-color: var(--color-semantic-error);
+}
+
+<label
+  class="emotion-0"
+>
+  <div
+    class="emotion-1"
+  />
+  <input
+    class="emotion-2"
+    name="username"
+    placeholder="3&S@nV0"
+  />
+</label>
+`;
+
+exports[`TextField renders correctly 10`] = `
+@media not all and (max-width: 449.99px) {
+  form>.emotion-0 {
+    grid-column: span 10;
+  }
+}
+
+.emotion-1 {
+  display: block;
+  font-weight: 700;
+  color: var(--color-grays-500);
+  margin-bottom: 0.5em;
+}
+
+.emotion-2 {
+  width: 100%;
+  height: 3em;
+  border: 2px solid var(--color-grays-300);
+  border-radius: 0.1875em;
+  padding: 0.75em 1em;
+  color: var(--color-grays-900);
+}
+
+.emotion-2::-webkit-input-placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2::-moz-placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2:-ms-input-placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2::placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2:invalid {
+  border-color: var(--color-semantic-error);
+}
+
+<label
+  class="emotion-0"
+>
+  <div
+    class="emotion-1"
+  >
+    "
+  </div>
+  <input
+    class="emotion-2"
+    name="username"
+    placeholder="/NvX*&U"
+  />
+</label>
+`;
+
+exports[`TextField renders correctly 11`] = `
+@media not all and (max-width: 449.99px) {
+  form>.emotion-0 {
+    grid-column: span 10;
+  }
+}
+
+.emotion-1 {
+  display: block;
+  font-weight: 700;
+  color: var(--color-grays-500);
+  margin-bottom: 0.5em;
+}
+
+.emotion-2 {
+  width: 100%;
+  height: 3em;
+  border: 2px solid var(--color-grays-300);
+  border-radius: 0.1875em;
+  padding: 0.75em 1em;
+  color: var(--color-grays-900);
+}
+
+.emotion-2::-webkit-input-placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2::-moz-placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2:-ms-input-placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2::placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2:invalid {
+  border-color: var(--color-semantic-error);
+}
+
+<label
+  class="emotion-0"
+>
+  <div
+    class="emotion-1"
+  />
+  <input
+    class="emotion-2"
+    name="username"
+    placeholder="w*<#LX\`C"
+  />
+</label>
+`;
+
+exports[`TextField renders correctly 12`] = `
+@media not all and (max-width: 449.99px) {
+  form>.emotion-0 {
+    grid-column: span 10;
+  }
+}
+
+.emotion-1 {
+  display: block;
+  font-weight: 700;
+  color: var(--color-grays-500);
+  margin-bottom: 0.5em;
+}
+
+.emotion-2 {
+  width: 100%;
+  height: 3em;
+  border: 2px solid var(--color-grays-300);
+  border-radius: 0.1875em;
+  padding: 0.75em 1em;
+  color: var(--color-grays-900);
+}
+
+.emotion-2::-webkit-input-placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2::-moz-placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2:-ms-input-placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2::placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2:invalid {
+  border-color: var(--color-semantic-error);
+}
+
+<label
+  class="emotion-0"
+>
+  <div
+    class="emotion-1"
+  >
+    __proto__
+  </div>
+  <input
+    class="emotion-2"
+    name="username"
+    placeholder="\\\\?I'#KKd/"
+  />
+</label>
+`;
+
+exports[`TextField renders correctly 13`] = `
+@media not all and (max-width: 449.99px) {
+  form>.emotion-0 {
+    grid-column: span 10;
+  }
+}
+
+.emotion-1 {
+  display: block;
+  font-weight: 700;
+  color: var(--color-grays-500);
+  margin-bottom: 0.5em;
+}
+
+.emotion-2 {
+  width: 100%;
+  height: 3em;
+  border: 2px solid var(--color-grays-300);
+  border-radius: 0.1875em;
+  padding: 0.75em 1em;
+  color: var(--color-grays-900);
+}
+
+.emotion-2::-webkit-input-placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2::-moz-placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2:-ms-input-placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2::placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2:invalid {
+  border-color: var(--color-semantic-error);
+}
+
+<label
+  class="emotion-0"
+>
+  <div
+    class="emotion-1"
+  >
+    V
+  </div>
+  <input
+    class="emotion-2"
+    name="username"
+    placeholder="|PRHx"
+  />
+</label>
+`;
+
+exports[`TextField renders correctly 14`] = `
+@media not all and (max-width: 449.99px) {
+  form>.emotion-0 {
+    grid-column: span 10;
+  }
+}
+
+.emotion-1 {
+  display: block;
+  font-weight: 700;
+  color: var(--color-grays-500);
+  margin-bottom: 0.5em;
+}
+
+.emotion-2 {
+  width: 100%;
+  height: 3em;
+  border: 2px solid var(--color-grays-300);
+  border-radius: 0.1875em;
+  padding: 0.75em 1em;
+  color: var(--color-grays-900);
+}
+
+.emotion-2::-webkit-input-placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2::-moz-placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2:-ms-input-placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2::placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2:invalid {
+  border-color: var(--color-semantic-error);
+}
+
+<label
+  class="emotion-0"
+>
+  <div
+    class="emotion-1"
+  >
+    argumentsr
+  </div>
+  <input
+    class="emotion-2"
+    name="username"
+    placeholder="zy"
+  />
+</label>
+`;
+
+exports[`TextField renders correctly 15`] = `
+@media not all and (max-width: 449.99px) {
+  form>.emotion-0 {
+    grid-column: span 10;
+  }
+}
+
+.emotion-1 {
+  display: block;
+  font-weight: 700;
+  color: var(--color-grays-500);
+  margin-bottom: 0.5em;
+}
+
+.emotion-2 {
+  width: 100%;
+  height: 3em;
+  border: 2px solid var(--color-grays-300);
+  border-radius: 0.1875em;
+  padding: 0.75em 1em;
+  color: var(--color-grays-900);
+}
+
+.emotion-2::-webkit-input-placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2::-moz-placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2:-ms-input-placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2::placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2:invalid {
+  border-color: var(--color-semantic-error);
+}
+
+<label
+  class="emotion-0"
+>
+  <div
+    class="emotion-1"
+  >
+    qdLlwBSkW.
+  </div>
+  <input
+    class="emotion-2"
+    name="username"
+    placeholder="B4yu"
+  />
+</label>
+`;
+
+exports[`TextField renders correctly 16`] = `
+@media not all and (max-width: 449.99px) {
+  form>.emotion-0 {
+    grid-column: span 10;
+  }
+}
+
+.emotion-1 {
+  display: block;
+  font-weight: 700;
+  color: var(--color-grays-500);
+  margin-bottom: 0.5em;
+}
+
+.emotion-2 {
+  width: 100%;
+  height: 3em;
+  border: 2px solid var(--color-grays-300);
+  border-radius: 0.1875em;
+  padding: 0.75em 1em;
+  color: var(--color-grays-900);
+}
+
+.emotion-2::-webkit-input-placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2::-moz-placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2:-ms-input-placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2::placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2:invalid {
+  border-color: var(--color-semantic-error);
+}
+
+<label
+  class="emotion-0"
+>
+  <div
+    class="emotion-1"
+  >
+    |h}xv&%*DB
+  </div>
+  <input
+    class="emotion-2"
+    name="username"
+    placeholder=""
+  />
+</label>
+`;
+
+exports[`TextField renders correctly 17`] = `
+@media not all and (max-width: 449.99px) {
+  form>.emotion-0 {
+    grid-column: span 10;
+  }
+}
+
+.emotion-1 {
+  display: block;
+  font-weight: 700;
+  color: var(--color-grays-500);
+  margin-bottom: 0.5em;
+}
+
+.emotion-2 {
+  width: 100%;
+  height: 3em;
+  border: 2px solid var(--color-grays-300);
+  border-radius: 0.1875em;
+  padding: 0.75em 1em;
+  color: var(--color-grays-900);
+}
+
+.emotion-2::-webkit-input-placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2::-moz-placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2:-ms-input-placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2::placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2:invalid {
+  border-color: var(--color-semantic-error);
+}
+
+<label
+  class="emotion-0"
+>
+  <div
+    class="emotion-1"
+  >
+    $}
+  </div>
+  <input
+    class="emotion-2"
+    name="username"
+    placeholder="8w\`,8"
+  />
+</label>
+`;
+
+exports[`TextField renders correctly 18`] = `
+@media not all and (max-width: 449.99px) {
+  form>.emotion-0 {
+    grid-column: span 10;
+  }
+}
+
+.emotion-1 {
+  display: block;
+  font-weight: 700;
+  color: var(--color-grays-500);
+  margin-bottom: 0.5em;
+}
+
+.emotion-2 {
+  width: 100%;
+  height: 3em;
+  border: 2px solid var(--color-grays-300);
+  border-radius: 0.1875em;
+  padding: 0.75em 1em;
+  color: var(--color-grays-900);
+}
+
+.emotion-2::-webkit-input-placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2::-moz-placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2:-ms-input-placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2::placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2:invalid {
+  border-color: var(--color-semantic-error);
+}
+
+<label
+  class="emotion-0"
+>
+  <div
+    class="emotion-1"
+  >
+    i3-TjDKJ
+  </div>
+  <input
+    class="emotion-2"
+    name="username"
+    placeholder="sq R&Juds"
+  />
+</label>
+`;
+
+exports[`TextField renders correctly 19`] = `
+@media not all and (max-width: 449.99px) {
+  form>.emotion-0 {
+    grid-column: span 10;
+  }
+}
+
+.emotion-1 {
+  display: block;
+  font-weight: 700;
+  color: var(--color-grays-500);
+  margin-bottom: 0.5em;
+}
+
+.emotion-2 {
+  width: 100%;
+  height: 3em;
+  border: 2px solid var(--color-grays-300);
+  border-radius: 0.1875em;
+  padding: 0.75em 1em;
+  color: var(--color-grays-900);
+}
+
+.emotion-2::-webkit-input-placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2::-moz-placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2:-ms-input-placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2::placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2:invalid {
+  border-color: var(--color-semantic-error);
+}
+
+<label
+  class="emotion-0"
+>
+  <div
+    class="emotion-1"
+  >
+    0f
+  </div>
+  <input
+    class="emotion-2"
+    name="username"
+    placeholder="~"
+  />
+</label>
+`;
+
+exports[`TextField renders correctly 20`] = `
+@media not all and (max-width: 449.99px) {
+  form>.emotion-0 {
+    grid-column: span 10;
+  }
+}
+
+.emotion-1 {
+  display: block;
+  font-weight: 700;
+  color: var(--color-grays-500);
+  margin-bottom: 0.5em;
+}
+
+.emotion-2 {
+  width: 100%;
+  height: 3em;
+  border: 2px solid var(--color-grays-300);
+  border-radius: 0.1875em;
+  padding: 0.75em 1em;
+  color: var(--color-grays-900);
+}
+
+.emotion-2::-webkit-input-placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2::-moz-placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2:-ms-input-placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2::placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2:invalid {
+  border-color: var(--color-semantic-error);
+}
+
+<label
+  class="emotion-0"
+>
+  <div
+    class="emotion-1"
+  >
+    d5l+N 8e&-
+  </div>
+  <input
+    class="emotion-2"
+    name="username"
+    placeholder="?}&<?QJ1"
+  />
+</label>
+`;

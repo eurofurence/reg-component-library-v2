@@ -1,0 +1,55 @@
+import { Meta } from "@storybook/addon-docs/blocks"
+
+<Meta title="Foundation/Colors"/>
+
+export const ColorSwatch = ({ color, textColor }) => (
+	<div
+		style={{
+			backgroundColor: `var(--color-${color})`,
+			width: "70px",
+			height: "26px",
+			display: "inline-flex",
+			alignItems: "center",
+			justifyContent: "space-around",
+			...(textColor != null ? { color: textColor } : {}),
+		}}
+	>
+		{color.match(/[^-]+$/)}
+	</div>
+)
+
+# Colors
+
+The EFDS colors are available by importing `@eurofurence/reg-component-library/dist/index.css`,
+which will place CSS variables for every available color on the application's root element.
+
+Any EFDS application should strictly adhere to only using these colors.
+
+## Brand Colors
+
+The core EFDS colors.
+
+| Category | CSS variable                     | Variants                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| -------- | -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Brand 1  | `--efds-color-brand-1-[variant]` | <ColorSwatch color="brand-1-100"/><ColorSwatch color="brand-1-200"/><ColorSwatch color="brand-1-300"/><ColorSwatch color="brand-1-400"/><ColorSwatch color="brand-1-500" textColor="white"/><ColorSwatch color="brand-1-600" textColor="white"/><ColorSwatch color="brand-1-700" textColor="white"/><ColorSwatch color="brand-1-800" textColor="white"/><ColorSwatch color="brand-1-900" textColor="white"/>                   |
+| Brand 2  | `--efds-color-brand-2-[variant]` | <ColorSwatch color="brand-2-100"/><ColorSwatch color="brand-2-200"/><ColorSwatch color="brand-2-300"/><ColorSwatch color="brand-2-400" textColor="white"/><ColorSwatch color="brand-2-500" textColor="white"/><ColorSwatch color="brand-2-600" textColor="white"/><ColorSwatch color="brand-2-700" textColor="white"/><ColorSwatch color="brand-2-800" textColor="white"/><ColorSwatch color="brand-2-900" textColor="white"/> |
+| Brand 3  | `--efds-color-brand-3-[variant]` | <ColorSwatch color="brand-3-100"/><ColorSwatch color="brand-3-200"/><ColorSwatch color="brand-3-300"/><ColorSwatch color="brand-3-400"/><ColorSwatch color="brand-3-500"/><ColorSwatch color="brand-3-600"/><ColorSwatch color="brand-3-700"/><ColorSwatch color="brand-3-800"/><ColorSwatch color="brand-3-900" textColor="white"/>                                                                                           |
+
+## Grays
+
+Grayscale colors.
+
+| Category | CSS variable                   | Variants                                                                                                                                                                                                                                                                                                                                                                                   |
+| -------- | ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Brand 1  | `--efds-color-grays-[variant]` | <ColorSwatch color="grays-100"/><ColorSwatch color="grays-200"/><ColorSwatch color="grays-300"/><ColorSwatch color="grays-400"/><ColorSwatch color="grays-500" textColor="white"/><ColorSwatch color="grays-600" textColor="white"/><ColorSwatch color="grays-700" textColor="white"/><ColorSwatch color="grays-800" textColor="white"/><ColorSwatch color="grays-900" textColor="white"/> |
+
+## Semantic Colors
+
+These colors denote application states.
+
+| Category | CSS variable                    | Demo                                                      |
+| -------- | ------------------------------- | --------------------------------------------------------- |
+| Success  | `--efds-color-semantic-success` | <ColorSwatch color="semantic-success" textColor="white"/> |
+| Info     | `--efds-color-semantic-info`    | <ColorSwatch color="semantic-info" textColor="white"/>    |
+| Warning  | `--efds-color-semantic-warning` | <ColorSwatch color="semantic-warning"/>                   |
+| Error    | `--efds-color-semantic-error`   | <ColorSwatch color="semantic-error" textColor="white"/>   |

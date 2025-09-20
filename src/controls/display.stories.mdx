@@ -1,0 +1,57 @@
+import { Canvas, Controls, Meta, Story } from "@storybook/addon-docs/blocks"
+
+import NavBar from "../layout/nav-bar"
+import Display from "./display"
+
+<Meta
+  title="Controls/Display"
+  component={Display}
+  decorators={[Story => (<NavBar><Story /></NavBar>)]}
+  argTypes={{
+    align: {
+      control: {
+        type: 'radio',
+        options: [
+          'left',
+          'right',
+        ],
+      }
+    }
+  }}
+/>
+
+# Display
+
+The `Display` component provides a way to display arbitrary text in a way that's reminiscent of
+a [split-flap display](https://en.wikipedia.org/wiki/Split-flap_display).
+
+<Canvas>
+  <Story name="Baseline" args={{
+    includeCaption: true,
+    caption: 'Departure time to Berlin:',
+    content: '10:20'
+  }}>
+    {({ includeCaption, caption, content }) => (
+      <Display content={content} {...includeCaption ? { caption } : { } }/>
+    )}
+  </Story>
+</Canvas>
+
+<Controls of="Baseline" />
+
+## Fixed size
+
+`Display` component can have a fixed size. Shorter messages will be padded with the character supplied
+in the `padding` prop. Left or right alignment can be chosen with the `align` prop.
+
+<Canvas>
+  <Story name="Fixed size" args={{
+    size: 8,
+    padding: '0',
+    align: 'right',
+  }}>
+    {args => <Display caption="Like count:" content="23190" {...args}/>}
+  </Story>
+</Canvas>
+
+<Controls of="Fixed size" />

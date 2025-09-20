@@ -1,0 +1,205 @@
+import { Canvas, Controls, Meta, Story } from "@storybook/addon-docs/blocks"
+
+import Form from "../../layout/form"
+import { RadioGroup, RadioItem, RadioSet } from "./radio-button"
+import TextField from "./text-field"
+
+<Meta title="Controls/Forms/RadioButton" component={RadioGroup} argTypes={{ onChange: {} }} />
+
+# RadioButton
+
+The `RadioSet` and `RadioItem` components can be used to create a set of radio buttons in a form.
+
+The `RadioSet` component is essentially a shortcut component. It uses a `RadioGroup` internally and
+wraps it inside a `FieldSet` component, therefore making it possible to add a legend to the grouping.
+
+Because of the surrounding `FieldSet`, `RadioSet` components adhere to the form grid.
+
+## Baseline
+
+<Canvas>
+  <Story name="Baseline" args={{
+    legend: 'Who is the best fox?',
+    gridSpan: 10,
+  }}>
+    {({ onChange, ...args }) => <Form>
+      <RadioSet name="popularity-contest" {...args}>
+        <RadioItem value="robin-hood" label="Robin Hood" onChange={onChange}/>
+        <RadioItem value="nick-wilde" label="Nick Wilde" onChange={onChange}/>
+        <RadioItem value="fox-mccloud" label="Fox McCloud" onChange={onChange}/>
+      </RadioSet>
+    </Form>}
+  </Story>
+</Canvas>
+
+<Controls of="Baseline" />
+
+## Complex content
+
+The labeled version of the radio button can be loaded with complex content. It will be shown below the label.
+
+<Canvas>
+  <Story name="Complex content" args={{
+    label: 'Other:',
+    checked: true,
+  }}>
+    {({ onChange, ...args }) => <Form>
+      <RadioSet name="popularity-contest" {...args}>
+        <RadioItem value="robin-hood" label="Robin Hood" onChange={onChange}/>
+        <RadioItem value="nick-wilde" label="Nick Wilde" onChange={onChange}/>
+        <RadioItem value="fox-mccloud" label="Fox McCloud" onChange={onChange}/>
+        <RadioItem value="other" label="Other:" onChange={onChange}>
+          <TextField/>
+        </RadioItem>
+      </RadioSet>
+    </Form>}
+  </Story>
+</Canvas>
+
+<Controls of="Complex content" />
+
+## RadioGroup
+
+For more complex situations, it is possible to wrap your `RadioItem` components in the more low level `RadioGroup`
+component. This component groups the radio buttons together, but does not create a `fieldset` tag, and it does
+not support adding a legend.
+
+`RadioItem` components used in this way adhere to the form grid when labeled.
+
+<Canvas>
+  <Story name="RadioGroup" args={{
+    column2Start: 3,
+    column3Start: 6,
+  }}>
+    {({ onChange, column2Start, column3Start }) => <Form>
+      <RadioGroup name="bodyparts">
+        <RadioItem value="ears" label="Perky ears" onChange={onChange} gridSpan={column2Start} />
+        <RadioItem value="paws" label="Beany paws" onChange={onChange} gridSpan={column3Start - column2Start}/>
+        <RadioItem value="tails" label="Floofy tails" onChange={onChange} gridSpan={10 - column3Start}/>
+      </RadioGroup>
+    </Form>}
+  </Story>
+</Canvas>
+
+<Controls of="RadioGroup" />
+
+## Labelless
+
+It is possible to create a radio button without a label. This changes the structure in the DOM. The `input` will not be nested in a `label` node.
+
+<Canvas>
+  <Story name="Labelless" args={{
+    showLabel: true,
+  }}>
+    {({ showLabel }) => <RadioGroup name="example">
+      <RadioItem value="example" label={showLabel ? 'Now you see me' : undefined}/>
+    </RadioGroup>}
+  </Story>
+</Canvas>
+
+<Controls of="Labelless" />
+
+## Arbitrary tag nesting
+
+The `RadioGroup` and `RadioItem` components do not have to be nested directly, allowing you to create more advanced, custom radio setups.
+`RadioGroup` does not have a real DOM tree representation, so it does not mess up your DOM for complex HTML like tables.
+
+<Canvas>
+  <Story name="Advanced Setup">
+    <h1>Rate your experience!</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>Category</th>
+          <th>1</th>
+          <th>2</th>
+          <th>3</th>
+          <th>4</th>
+          <th>5</th>
+        </tr>
+      </thead>
+      <tbody>
+        <RadioGroup name="events">
+          <tr>
+            <td>Events</td>
+            <td><RadioItem value={1}/></td>
+            <td><RadioItem value={2}/></td>
+            <td><RadioItem value={3}/></td>
+            <td><RadioItem value={4}/></td>
+            <td><RadioItem value={5}/></td>
+          </tr>
+        </RadioGroup>
+        <RadioGroup name="panels">
+          <tr>
+            <td>Panels</td>
+            <td><RadioItem value={1}/></td>
+            <td><RadioItem value={2}/></td>
+            <td><RadioItem value={3}/></td>
+            <td><RadioItem value={4}/></td>
+            <td><RadioItem value={5}/></td>
+          </tr>
+        </RadioGroup>
+        <RadioGroup name="art-show">
+          <tr>
+            <td>Art Show</td>
+            <td><RadioItem value={1}/></td>
+            <td><RadioItem value={2}/></td>
+            <td><RadioItem value={3}/></td>
+            <td><RadioItem value={4}/></td>
+            <td><RadioItem value={5}/></td>
+          </tr>
+        </RadioGroup>
+        <RadioGroup name="dealers-den">
+          <tr>
+            <td>Dealer's Den</td>
+            <td><RadioItem value={1}/></td>
+            <td><RadioItem value={2}/></td>
+            <td><RadioItem value={3}/></td>
+            <td><RadioItem value={4}/></td>
+            <td><RadioItem value={5}/></td>
+          </tr>
+        </RadioGroup>
+        <RadioGroup name="accessibility">
+          <tr>
+            <td>Accessibility</td>
+            <td><RadioItem value={1}/></td>
+            <td><RadioItem value={2}/></td>
+            <td><RadioItem value={3}/></td>
+            <td><RadioItem value={4}/></td>
+            <td><RadioItem value={5}/></td>
+          </tr>
+        </RadioGroup>
+        <RadioGroup name="registration-process">
+          <tr>
+            <td>Registration Process</td>
+            <td><RadioItem value={1}/></td>
+            <td><RadioItem value={2}/></td>
+            <td><RadioItem value={3}/></td>
+            <td><RadioItem value={4}/></td>
+            <td><RadioItem value={5}/></td>
+          </tr>
+        </RadioGroup>
+        <RadioGroup name="rooms">
+          <tr>
+            <td>Rooms</td>
+            <td><RadioItem value={1}/></td>
+            <td><RadioItem value={2}/></td>
+            <td><RadioItem value={3}/></td>
+            <td><RadioItem value={4}/></td>
+            <td><RadioItem value={5}/></td>
+          </tr>
+        </RadioGroup>
+        <RadioGroup name="elevator-waiting-times">
+          <tr>
+            <td>Elevator Waiting Times</td>
+            <td><RadioItem value={1}/></td>
+            <td><RadioItem value={2}/></td>
+            <td><RadioItem value={3}/></td>
+            <td><RadioItem value={4}/></td>
+            <td><RadioItem value={5}/></td>
+          </tr>
+        </RadioGroup>
+      </tbody>
+    </table>
+  </Story>
+</Canvas>

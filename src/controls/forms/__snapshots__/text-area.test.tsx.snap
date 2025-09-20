@@ -1,0 +1,1187 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextArea renders correctly 1`] = `
+@media not all and (max-width: 449.99px) {
+  form>.emotion-0 {
+    grid-column: span 10;
+  }
+}
+
+.emotion-1 {
+  display: block;
+  font-weight: 700;
+  color: var(--color-grays-500);
+  margin-bottom: 0.5em;
+}
+
+.emotion-2 {
+  min-width: 100%;
+  max-width: 100%;
+  height: 6.25em;
+  border: 2px solid var(--color-grays-300);
+  border-radius: 0.1875em;
+  padding: 0.75em 1em 1em 1em;
+  color: var(--color-grays-900);
+}
+
+.emotion-2::-webkit-input-placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2::-moz-placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2:-ms-input-placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2::placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2:invalid {
+  border-color: var(--color-semantic-error);
+}
+
+<label
+  class="emotion-0"
+>
+  <div
+    class="emotion-1"
+  />
+  <textarea
+    class="emotion-2"
+    name="comments"
+    placeholder="\\\\>"
+  />
+</label>
+`;
+
+exports[`TextArea renders correctly 2`] = `
+@media not all and (max-width: 449.99px) {
+  form>.emotion-0 {
+    grid-column: span 10;
+  }
+}
+
+.emotion-1 {
+  display: block;
+  font-weight: 700;
+  color: var(--color-grays-500);
+  margin-bottom: 0.5em;
+}
+
+.emotion-2 {
+  min-width: 100%;
+  max-width: 100%;
+  height: 6.25em;
+  border: 2px solid var(--color-grays-300);
+  border-radius: 0.1875em;
+  padding: 0.75em 1em 1em 1em;
+  color: var(--color-grays-900);
+}
+
+.emotion-2::-webkit-input-placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2::-moz-placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2:-ms-input-placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2::placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2:invalid {
+  border-color: var(--color-semantic-error);
+}
+
+<label
+  class="emotion-0"
+>
+  <div
+    class="emotion-1"
+  >
+    !3%^
+  </div>
+  <textarea
+    class="emotion-2"
+    name="comments"
+    placeholder="Pr"
+  />
+</label>
+`;
+
+exports[`TextArea renders correctly 3`] = `
+@media not all and (max-width: 449.99px) {
+  form>.emotion-0 {
+    grid-column: span 10;
+  }
+}
+
+.emotion-1 {
+  display: block;
+  font-weight: 700;
+  color: var(--color-grays-500);
+  margin-bottom: 0.5em;
+}
+
+.emotion-2 {
+  min-width: 100%;
+  max-width: 100%;
+  height: 6.25em;
+  border: 2px solid var(--color-grays-300);
+  border-radius: 0.1875em;
+  padding: 0.75em 1em 1em 1em;
+  color: var(--color-grays-900);
+}
+
+.emotion-2::-webkit-input-placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2::-moz-placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2:-ms-input-placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2::placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2:invalid {
+  border-color: var(--color-semantic-error);
+}
+
+<label
+  class="emotion-0"
+>
+  <div
+    class="emotion-1"
+  />
+  <textarea
+    class="emotion-2"
+    name="comments"
+    placeholder=""
+  />
+</label>
+`;
+
+exports[`TextArea renders correctly 4`] = `
+@media not all and (max-width: 449.99px) {
+  form>.emotion-0 {
+    grid-column: span 10;
+  }
+}
+
+.emotion-1 {
+  display: block;
+  font-weight: 700;
+  color: var(--color-grays-500);
+  margin-bottom: 0.5em;
+}
+
+.emotion-2 {
+  min-width: 100%;
+  max-width: 100%;
+  height: 6.25em;
+  border: 2px solid var(--color-grays-300);
+  border-radius: 0.1875em;
+  padding: 0.75em 1em 1em 1em;
+  color: var(--color-grays-900);
+}
+
+.emotion-2::-webkit-input-placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2::-moz-placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2:-ms-input-placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2::placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2:invalid {
+  border-color: var(--color-semantic-error);
+}
+
+<label
+  class="emotion-0"
+>
+  <div
+    class="emotion-1"
+  />
+  <textarea
+    class="emotion-2"
+    name="comments"
+    placeholder="d"
+  />
+</label>
+`;
+
+exports[`TextArea renders correctly 5`] = `
+@media not all and (max-width: 449.99px) {
+  form>.emotion-0 {
+    grid-column: span 10;
+  }
+}
+
+.emotion-1 {
+  display: block;
+  font-weight: 700;
+  color: var(--color-grays-500);
+  margin-bottom: 0.5em;
+}
+
+.emotion-2 {
+  min-width: 100%;
+  max-width: 100%;
+  height: 6.25em;
+  border: 2px solid var(--color-grays-300);
+  border-radius: 0.1875em;
+  padding: 0.75em 1em 1em 1em;
+  color: var(--color-grays-900);
+}
+
+.emotion-2::-webkit-input-placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2::-moz-placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2:-ms-input-placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2::placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2:invalid {
+  border-color: var(--color-semantic-error);
+}
+
+<label
+  class="emotion-0"
+>
+  <div
+    class="emotion-1"
+  >
+    {
+  </div>
+  <textarea
+    class="emotion-2"
+    name="comments"
+    placeholder="uei-"
+  />
+</label>
+`;
+
+exports[`TextArea renders correctly 6`] = `
+@media not all and (max-width: 449.99px) {
+  form>.emotion-0 {
+    grid-column: span 10;
+  }
+}
+
+.emotion-1 {
+  display: block;
+  font-weight: 700;
+  color: var(--color-grays-500);
+  margin-bottom: 0.5em;
+}
+
+.emotion-2 {
+  min-width: 100%;
+  max-width: 100%;
+  height: 6.25em;
+  border: 2px solid var(--color-grays-300);
+  border-radius: 0.1875em;
+  padding: 0.75em 1em 1em 1em;
+  color: var(--color-grays-900);
+}
+
+.emotion-2::-webkit-input-placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2::-moz-placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2:-ms-input-placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2::placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2:invalid {
+  border-color: var(--color-semantic-error);
+}
+
+<label
+  class="emotion-0"
+>
+  <div
+    class="emotion-1"
+  >
+    &gt;n#C
+  </div>
+  <textarea
+    class="emotion-2"
+    name="comments"
+    placeholder="B"
+  />
+</label>
+`;
+
+exports[`TextArea renders correctly 7`] = `
+@media not all and (max-width: 449.99px) {
+  form>.emotion-0 {
+    grid-column: span 10;
+  }
+}
+
+.emotion-1 {
+  display: block;
+  font-weight: 700;
+  color: var(--color-grays-500);
+  margin-bottom: 0.5em;
+}
+
+.emotion-2 {
+  min-width: 100%;
+  max-width: 100%;
+  height: 6.25em;
+  border: 2px solid var(--color-grays-300);
+  border-radius: 0.1875em;
+  padding: 0.75em 1em 1em 1em;
+  color: var(--color-grays-900);
+}
+
+.emotion-2::-webkit-input-placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2::-moz-placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2:-ms-input-placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2::placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2:invalid {
+  border-color: var(--color-semantic-error);
+}
+
+<label
+  class="emotion-0"
+>
+  <div
+    class="emotion-1"
+  />
+  <textarea
+    class="emotion-2"
+    name="comments"
+    placeholder="valueOf"
+  />
+</label>
+`;
+
+exports[`TextArea renders correctly 8`] = `
+@media not all and (max-width: 449.99px) {
+  form>.emotion-0 {
+    grid-column: span 10;
+  }
+}
+
+.emotion-1 {
+  display: block;
+  font-weight: 700;
+  color: var(--color-grays-500);
+  margin-bottom: 0.5em;
+}
+
+.emotion-2 {
+  min-width: 100%;
+  max-width: 100%;
+  height: 6.25em;
+  border: 2px solid var(--color-grays-300);
+  border-radius: 0.1875em;
+  padding: 0.75em 1em 1em 1em;
+  color: var(--color-grays-900);
+}
+
+.emotion-2::-webkit-input-placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2::-moz-placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2:-ms-input-placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2::placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2:invalid {
+  border-color: var(--color-semantic-error);
+}
+
+<label
+  class="emotion-0"
+>
+  <div
+    class="emotion-1"
+  />
+  <textarea
+    class="emotion-2"
+    name="comments"
+    placeholder="l"
+  />
+</label>
+`;
+
+exports[`TextArea renders correctly 9`] = `
+@media not all and (max-width: 449.99px) {
+  form>.emotion-0 {
+    grid-column: span 10;
+  }
+}
+
+.emotion-1 {
+  display: block;
+  font-weight: 700;
+  color: var(--color-grays-500);
+  margin-bottom: 0.5em;
+}
+
+.emotion-2 {
+  min-width: 100%;
+  max-width: 100%;
+  height: 6.25em;
+  border: 2px solid var(--color-grays-300);
+  border-radius: 0.1875em;
+  padding: 0.75em 1em 1em 1em;
+  color: var(--color-grays-900);
+}
+
+.emotion-2::-webkit-input-placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2::-moz-placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2:-ms-input-placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2::placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2:invalid {
+  border-color: var(--color-semantic-error);
+}
+
+<label
+  class="emotion-0"
+>
+  <div
+    class="emotion-1"
+  />
+  <textarea
+    class="emotion-2"
+    name="comments"
+    placeholder="3&S@nV0"
+  />
+</label>
+`;
+
+exports[`TextArea renders correctly 10`] = `
+@media not all and (max-width: 449.99px) {
+  form>.emotion-0 {
+    grid-column: span 10;
+  }
+}
+
+.emotion-1 {
+  display: block;
+  font-weight: 700;
+  color: var(--color-grays-500);
+  margin-bottom: 0.5em;
+}
+
+.emotion-2 {
+  min-width: 100%;
+  max-width: 100%;
+  height: 6.25em;
+  border: 2px solid var(--color-grays-300);
+  border-radius: 0.1875em;
+  padding: 0.75em 1em 1em 1em;
+  color: var(--color-grays-900);
+}
+
+.emotion-2::-webkit-input-placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2::-moz-placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2:-ms-input-placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2::placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2:invalid {
+  border-color: var(--color-semantic-error);
+}
+
+<label
+  class="emotion-0"
+>
+  <div
+    class="emotion-1"
+  >
+    "
+  </div>
+  <textarea
+    class="emotion-2"
+    name="comments"
+    placeholder="/NvX*&U"
+  />
+</label>
+`;
+
+exports[`TextArea renders correctly 11`] = `
+@media not all and (max-width: 449.99px) {
+  form>.emotion-0 {
+    grid-column: span 10;
+  }
+}
+
+.emotion-1 {
+  display: block;
+  font-weight: 700;
+  color: var(--color-grays-500);
+  margin-bottom: 0.5em;
+}
+
+.emotion-2 {
+  min-width: 100%;
+  max-width: 100%;
+  height: 6.25em;
+  border: 2px solid var(--color-grays-300);
+  border-radius: 0.1875em;
+  padding: 0.75em 1em 1em 1em;
+  color: var(--color-grays-900);
+}
+
+.emotion-2::-webkit-input-placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2::-moz-placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2:-ms-input-placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2::placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2:invalid {
+  border-color: var(--color-semantic-error);
+}
+
+<label
+  class="emotion-0"
+>
+  <div
+    class="emotion-1"
+  />
+  <textarea
+    class="emotion-2"
+    name="comments"
+    placeholder="w*<#LX\`C"
+  />
+</label>
+`;
+
+exports[`TextArea renders correctly 12`] = `
+@media not all and (max-width: 449.99px) {
+  form>.emotion-0 {
+    grid-column: span 10;
+  }
+}
+
+.emotion-1 {
+  display: block;
+  font-weight: 700;
+  color: var(--color-grays-500);
+  margin-bottom: 0.5em;
+}
+
+.emotion-2 {
+  min-width: 100%;
+  max-width: 100%;
+  height: 6.25em;
+  border: 2px solid var(--color-grays-300);
+  border-radius: 0.1875em;
+  padding: 0.75em 1em 1em 1em;
+  color: var(--color-grays-900);
+}
+
+.emotion-2::-webkit-input-placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2::-moz-placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2:-ms-input-placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2::placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2:invalid {
+  border-color: var(--color-semantic-error);
+}
+
+<label
+  class="emotion-0"
+>
+  <div
+    class="emotion-1"
+  >
+    __proto__
+  </div>
+  <textarea
+    class="emotion-2"
+    name="comments"
+    placeholder="\\\\?I'#KKd/"
+  />
+</label>
+`;
+
+exports[`TextArea renders correctly 13`] = `
+@media not all and (max-width: 449.99px) {
+  form>.emotion-0 {
+    grid-column: span 10;
+  }
+}
+
+.emotion-1 {
+  display: block;
+  font-weight: 700;
+  color: var(--color-grays-500);
+  margin-bottom: 0.5em;
+}
+
+.emotion-2 {
+  min-width: 100%;
+  max-width: 100%;
+  height: 6.25em;
+  border: 2px solid var(--color-grays-300);
+  border-radius: 0.1875em;
+  padding: 0.75em 1em 1em 1em;
+  color: var(--color-grays-900);
+}
+
+.emotion-2::-webkit-input-placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2::-moz-placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2:-ms-input-placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2::placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2:invalid {
+  border-color: var(--color-semantic-error);
+}
+
+<label
+  class="emotion-0"
+>
+  <div
+    class="emotion-1"
+  >
+    V
+  </div>
+  <textarea
+    class="emotion-2"
+    name="comments"
+    placeholder="|PRHx"
+  />
+</label>
+`;
+
+exports[`TextArea renders correctly 14`] = `
+@media not all and (max-width: 449.99px) {
+  form>.emotion-0 {
+    grid-column: span 10;
+  }
+}
+
+.emotion-1 {
+  display: block;
+  font-weight: 700;
+  color: var(--color-grays-500);
+  margin-bottom: 0.5em;
+}
+
+.emotion-2 {
+  min-width: 100%;
+  max-width: 100%;
+  height: 6.25em;
+  border: 2px solid var(--color-grays-300);
+  border-radius: 0.1875em;
+  padding: 0.75em 1em 1em 1em;
+  color: var(--color-grays-900);
+}
+
+.emotion-2::-webkit-input-placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2::-moz-placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2:-ms-input-placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2::placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2:invalid {
+  border-color: var(--color-semantic-error);
+}
+
+<label
+  class="emotion-0"
+>
+  <div
+    class="emotion-1"
+  >
+    argumentsr
+  </div>
+  <textarea
+    class="emotion-2"
+    name="comments"
+    placeholder="zy"
+  />
+</label>
+`;
+
+exports[`TextArea renders correctly 15`] = `
+@media not all and (max-width: 449.99px) {
+  form>.emotion-0 {
+    grid-column: span 10;
+  }
+}
+
+.emotion-1 {
+  display: block;
+  font-weight: 700;
+  color: var(--color-grays-500);
+  margin-bottom: 0.5em;
+}
+
+.emotion-2 {
+  min-width: 100%;
+  max-width: 100%;
+  height: 6.25em;
+  border: 2px solid var(--color-grays-300);
+  border-radius: 0.1875em;
+  padding: 0.75em 1em 1em 1em;
+  color: var(--color-grays-900);
+}
+
+.emotion-2::-webkit-input-placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2::-moz-placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2:-ms-input-placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2::placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2:invalid {
+  border-color: var(--color-semantic-error);
+}
+
+<label
+  class="emotion-0"
+>
+  <div
+    class="emotion-1"
+  >
+    qdLlwBSkW.
+  </div>
+  <textarea
+    class="emotion-2"
+    name="comments"
+    placeholder="B4yu"
+  />
+</label>
+`;
+
+exports[`TextArea renders correctly 16`] = `
+@media not all and (max-width: 449.99px) {
+  form>.emotion-0 {
+    grid-column: span 10;
+  }
+}
+
+.emotion-1 {
+  display: block;
+  font-weight: 700;
+  color: var(--color-grays-500);
+  margin-bottom: 0.5em;
+}
+
+.emotion-2 {
+  min-width: 100%;
+  max-width: 100%;
+  height: 6.25em;
+  border: 2px solid var(--color-grays-300);
+  border-radius: 0.1875em;
+  padding: 0.75em 1em 1em 1em;
+  color: var(--color-grays-900);
+}
+
+.emotion-2::-webkit-input-placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2::-moz-placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2:-ms-input-placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2::placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2:invalid {
+  border-color: var(--color-semantic-error);
+}
+
+<label
+  class="emotion-0"
+>
+  <div
+    class="emotion-1"
+  >
+    |h}xv&%*DB
+  </div>
+  <textarea
+    class="emotion-2"
+    name="comments"
+    placeholder=""
+  />
+</label>
+`;
+
+exports[`TextArea renders correctly 17`] = `
+@media not all and (max-width: 449.99px) {
+  form>.emotion-0 {
+    grid-column: span 10;
+  }
+}
+
+.emotion-1 {
+  display: block;
+  font-weight: 700;
+  color: var(--color-grays-500);
+  margin-bottom: 0.5em;
+}
+
+.emotion-2 {
+  min-width: 100%;
+  max-width: 100%;
+  height: 6.25em;
+  border: 2px solid var(--color-grays-300);
+  border-radius: 0.1875em;
+  padding: 0.75em 1em 1em 1em;
+  color: var(--color-grays-900);
+}
+
+.emotion-2::-webkit-input-placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2::-moz-placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2:-ms-input-placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2::placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2:invalid {
+  border-color: var(--color-semantic-error);
+}
+
+<label
+  class="emotion-0"
+>
+  <div
+    class="emotion-1"
+  >
+    $}
+  </div>
+  <textarea
+    class="emotion-2"
+    name="comments"
+    placeholder="8w\`,8"
+  />
+</label>
+`;
+
+exports[`TextArea renders correctly 18`] = `
+@media not all and (max-width: 449.99px) {
+  form>.emotion-0 {
+    grid-column: span 10;
+  }
+}
+
+.emotion-1 {
+  display: block;
+  font-weight: 700;
+  color: var(--color-grays-500);
+  margin-bottom: 0.5em;
+}
+
+.emotion-2 {
+  min-width: 100%;
+  max-width: 100%;
+  height: 6.25em;
+  border: 2px solid var(--color-grays-300);
+  border-radius: 0.1875em;
+  padding: 0.75em 1em 1em 1em;
+  color: var(--color-grays-900);
+}
+
+.emotion-2::-webkit-input-placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2::-moz-placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2:-ms-input-placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2::placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2:invalid {
+  border-color: var(--color-semantic-error);
+}
+
+<label
+  class="emotion-0"
+>
+  <div
+    class="emotion-1"
+  >
+    i3-TjDKJ
+  </div>
+  <textarea
+    class="emotion-2"
+    name="comments"
+    placeholder="sq R&Juds"
+  />
+</label>
+`;
+
+exports[`TextArea renders correctly 19`] = `
+@media not all and (max-width: 449.99px) {
+  form>.emotion-0 {
+    grid-column: span 10;
+  }
+}
+
+.emotion-1 {
+  display: block;
+  font-weight: 700;
+  color: var(--color-grays-500);
+  margin-bottom: 0.5em;
+}
+
+.emotion-2 {
+  min-width: 100%;
+  max-width: 100%;
+  height: 6.25em;
+  border: 2px solid var(--color-grays-300);
+  border-radius: 0.1875em;
+  padding: 0.75em 1em 1em 1em;
+  color: var(--color-grays-900);
+}
+
+.emotion-2::-webkit-input-placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2::-moz-placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2:-ms-input-placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2::placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2:invalid {
+  border-color: var(--color-semantic-error);
+}
+
+<label
+  class="emotion-0"
+>
+  <div
+    class="emotion-1"
+  >
+    0f
+  </div>
+  <textarea
+    class="emotion-2"
+    name="comments"
+    placeholder="~"
+  />
+</label>
+`;
+
+exports[`TextArea renders correctly 20`] = `
+@media not all and (max-width: 449.99px) {
+  form>.emotion-0 {
+    grid-column: span 10;
+  }
+}
+
+.emotion-1 {
+  display: block;
+  font-weight: 700;
+  color: var(--color-grays-500);
+  margin-bottom: 0.5em;
+}
+
+.emotion-2 {
+  min-width: 100%;
+  max-width: 100%;
+  height: 6.25em;
+  border: 2px solid var(--color-grays-300);
+  border-radius: 0.1875em;
+  padding: 0.75em 1em 1em 1em;
+  color: var(--color-grays-900);
+}
+
+.emotion-2::-webkit-input-placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2::-moz-placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2:-ms-input-placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2::placeholder {
+  color: var(--color-grays-300);
+}
+
+.emotion-2:invalid {
+  border-color: var(--color-semantic-error);
+}
+
+<label
+  class="emotion-0"
+>
+  <div
+    class="emotion-1"
+  >
+    d5l+N 8e&-
+  </div>
+  <textarea
+    class="emotion-2"
+    name="comments"
+    placeholder="?}&<?QJ1"
+  />
+</label>
+`;

@@ -1,0 +1,35 @@
+import { Canvas, Controls, Meta, Story } from "@storybook/addon-docs/blocks"
+
+import { RadioGroup } from "./radio-button"
+import RadioCard from "./radio-card"
+
+<Meta title="Controls/Forms/RadioCard" component={RadioGroup} argTypes={{ onChange: {} }} />
+
+# RadioCard
+
+The `RadioCard` component combines the functionality of a `Card` and a `RadioItem`, making it possible
+to have a group of cards in a `RadioGroup` of which 1 can be selected.
+
+`RadioCard` components do _not_ adhere to the form grid. They are therefore also not required to be put
+within a `Form` component, but the must be children of some `form` tag.
+
+## Baseline
+
+<Canvas>
+  <Story name="Baseline" args={{
+    column2Start: 3,
+    column3Start: 6,
+  }}>
+    {({ onChange, column2Start, column3Start }) => <form>
+      <RadioGroup name="bodyparts">
+        <div style={{ display: 'flex', gap: '8px' }}>
+          <RadioCard value="ears" label="Perky ears" onChange={onChange}/>
+          <RadioCard value="paws" label="Beany paws" onChange={onChange}/>
+          <RadioCard value="tails" label="Floofy tails" onChange={onChange}/>
+        </div>
+      </RadioGroup>
+    </form>}
+  </Story>
+</Canvas>
+
+<Controls of="Baseline" />

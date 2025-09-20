@@ -1,0 +1,49 @@
+:root {
+	--color-brand-1-100: #C6F8DF;
+	--color-brand-1-200: #90EECA;
+	--color-brand-1-300: #29A188;
+	--color-brand-1-400: #29A188;
+	--color-brand-1-500: #016257;
+	--color-brand-1-600: #005552;
+	--color-brand-1-700: #014248;
+	--color-brand-1-800: #00303A;
+	--color-brand-1-900: #01232F;
+
+	--color-brand-2-100: #C7CBF9;
+	--color-brand-2-200: #9398F3;
+	--color-brand-2-300: #5960DB;
+	--color-brand-2-400: #2F36B7;
+	--color-brand-2-500: #020887;
+	--color-brand-2-600: #010674;
+	--color-brand-2-700: #010461;
+	--color-brand-2-800: #00034E;
+	--color-brand-2-900: #000240;
+
+	--color-brand-3-100: #FCE3D9;
+	--color-brand-3-200: #FAC2B4;
+	--color-brand-3-300: #F1978C;
+	--color-brand-3-400: #E46F6C;
+	--color-brand-3-500: #D33F49;
+	--color-brand-3-600: #B52E43;
+	--color-brand-3-700: #971F3D;
+	--color-brand-3-800: #7A1436;
+	--color-brand-3-900: #650C32;
+
+	--color-grays-000: #FFFFFF;
+	--color-grays-100: #E7EDF5;
+	--color-grays-200: #D0DCEC;
+	--color-grays-300: #A4B1C6;
+	--color-grays-400: #6F798D;
+	--color-grays-500: #2F3542;
+	--color-grays-600: #222838;
+	--color-grays-700: #171D2F;
+	--color-grays-800: #0E1426;
+	--color-grays-900: #090D1F;
+
+	--color-semantic-success: #158C28;
+	--color-semantic-info: #2952E8;
+	--color-semantic-warning: #ED9A00;
+	--color-semantic-error: #CE2621;
+
+	--color-blue-gray: #F6F6FE;
+}

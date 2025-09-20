@@ -1,0 +1,28 @@
+import { Canvas, Controls, Meta, Story } from "@storybook/addon-docs/blocks"
+
+import Form from "../../layout/form"
+import Spinner from "./spinner"
+
+<Meta title="Controls/Forms/Spinner" component={Spinner} argTypes={{ onChange: {} }} />
+
+# Spinner
+
+The `Spinner` component allows textual user input in a form.
+
+It adheres to the form grid.
+
+## Baseline
+
+<Canvas>
+  <Story name="Baseline" args={{
+    label: 'First name',
+    placeholder: '5',
+    gridSpan: 10,
+  }}>
+    {args => <Form>
+      <Spinner {...args}/>
+    </Form>}
+  </Story>
+</Canvas>
+
+<Controls of="Baseline" />

@@ -1,0 +1,41 @@
+import { Canvas, Controls, Meta, Story } from "@storybook/addon-docs/blocks"
+
+import Checkbox from "../controls/forms/checkbox"
+import TextField from "../controls/forms/text-field"
+import Form from "./form"
+
+<Meta title="Layout/Form" component={Form} />
+
+# Form
+
+The `Form` component should be used to contain form controls.
+It defines a vertical grid of 10 columns upon which the form controls can be placed.
+
+The following components adhere to this grid when used as direct children to the `Form` component:
+
+- `TextField`
+- `Checkbox` (labeled)
+- `RadioItem` (labeled)
+- `RadioSet`
+- `FieldSet`
+
+These components also accept a `gridSpan` prop, which can be used to define the amount of columns
+the fields use when not being collapsed by responsive media queries.
+
+## Baseline
+
+<Canvas>
+  <Story name="Baseline" args={{
+    column2Start: 5,
+  }}>
+    {({ column2Start }) => <Form>
+      <TextField name="first-name" label="First name" gridSpan={column2Start} />
+      <TextField name="last-name" label="Last name" gridSpan={10 - column2Start} />
+      <TextField name="email" label="Email address" />
+      <Checkbox name="longCheckbox" label="A  checkbox with a relatively long description" gridSpan={7} />
+      <Checkbox name="shortCheckbox" label="Short desc" gridSpan={3} />
+    </Form>}
+  </Story>
+</Canvas>
+
+<Controls of="Baseline" />

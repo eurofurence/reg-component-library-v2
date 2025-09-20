@@ -1,0 +1,21 @@
+name: Tests
+
+on: [push]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: "24"
+          registry-url: "https://npm.pkg.github.com"
+          scope: "@eurofurence"
+      - uses: oven-sh/setup-bun@v2
+      - run: bun install
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - run: bun run test:lint
+      - run: bun run test:unit
+      - run: bun run test:build

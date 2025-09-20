@@ -1,0 +1,45 @@
+import { Canvas, Controls, Meta, Story } from "@storybook/addon-docs/blocks"
+
+import Form from "../../layout/form"
+import DatePicker from "./date-picker"
+
+<Meta title="Controls/Forms/DatePicker" component={DatePicker} argTypes={{ onChange: {} }} />
+
+# DatePicker
+
+The `DatePicker` component allows textual user input in a form.
+
+It adheres to the form grid.
+
+## Baseline
+
+<Canvas>
+  <Story name="Baseline" args={{
+    label: 'Birthdate',
+    gridSpan: 10,
+  }}>
+    {args => <Form>
+      <DatePicker range={false} {...args}/>
+    </Form>}
+  </Story>
+</Canvas>
+
+<Controls of="Baseline" />
+
+# Range
+
+<Canvas>
+  <Story name="Range" args={{
+    startLabel: 'Arrival',
+    endLabel: 'Departure',
+    startValue: '',
+    endValue: '',
+    gridSpan: 10,
+  }}>
+    {args => <Form>
+      <DatePicker range={true} {...args}/>
+    </Form>}
+  </Story>
+</Canvas>
+
+<Controls of="Range" />
