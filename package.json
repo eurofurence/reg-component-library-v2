@@ -74,7 +74,7 @@
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "name": "@eurofurence/reg-component-library-v2",
-  "packageManager": "pnpm@10.12.4",
+  "packageManager": "bun@1.2.22",
   "peerDependencies": {
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
